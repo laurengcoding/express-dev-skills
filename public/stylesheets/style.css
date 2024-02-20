@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+body {
+  background-color: rgb(252, 235, 243);
+}
+
+li {
+  list-style-type: '⭐ ';
+}
