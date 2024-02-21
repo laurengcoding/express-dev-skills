@@ -7,13 +7,14 @@
     <title>Express Dev Skills</title>
 </head>
 <body>
-    <a href="/">Home</a>
 
-    <a href="/skills">All Skills</a>
-    <h3><%= skill.skill %></h3>
-    <p><%= skill.thoughts %></p>
-    <form action="/skills">
-      <button type="submit">Delete Skill</button>
+    <h2>Add New Skill Here</h2>
+    
+    <form action="/skills" method="POST">
+        <input type="text" name="skill">
+        <button type="submit">Save Skill</button>
+
     </form>
+
   </body>
 </html>
