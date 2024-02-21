@@ -12,7 +12,9 @@
     <a href="/skills">All Skills</a>
     <h3><%= skill.skill %></h3>
     <p><%= skill.thoughts %></p>
-    <form action="/skills">
+    <form 
+      action="/skills/<%= skill.id %>?_method=DELETE"
+      method="POST">
       <button type="submit">Delete Skill</button>
     </form>
   </body>
